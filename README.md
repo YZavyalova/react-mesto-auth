@@ -7,4 +7,4 @@
 * создание реакт приложения на основе функциональных компонентов с применением хуков useState и useEffect, useHistory, useContext
 
 
-Ссылка на  github: https://github.com/YZavyalova/mesto-react.git
+Ссылка на  github: https://github.com/YZavyalova/react-mesto-auth.git
