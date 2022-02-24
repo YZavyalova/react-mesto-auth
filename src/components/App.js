@@ -13,7 +13,7 @@ import Login from './Login';
 import Register from './Register';
 import InfoTooltip from './InfoTooltip';
 import ProtectedRoute from './HOC/ProtectedRoute';
-import { authorize, getContent, register } from './Auth';
+import { authorize, getContent, register } from '../utils/Auth';
 
 function App() {
 
@@ -150,7 +150,6 @@ function App() {
           email,
         }
       }))
-      setIsTooltipOpen(true);
       history.push('/')
     })
     .catch((err) => console.log(err))
