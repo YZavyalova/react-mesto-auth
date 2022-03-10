@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "express": "^4.17.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -36,5 +37,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Этот проект был сделан в качестве домашнего задания на обучающем курсе Яндекс Практикум.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YZavyalova/react-mesto-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YZavyalova/react-mesto-auth/issues"
+  },
+  "homepage": "https://github.com/YZavyalova/react-mesto-auth#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

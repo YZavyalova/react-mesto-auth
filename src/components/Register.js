@@ -39,7 +39,7 @@ const Register = ({ handleRegister }) => {
                     required 
                     placeholder="Email" 
                     autoComplete="off"/>
-                <span className="error" id="email-error"/>
+                <span className="auth__error" id="email-error"/>
                 <input 
                     id="password" 
                     name="password" 
@@ -52,7 +52,7 @@ const Register = ({ handleRegister }) => {
                     minLength="8" 
                     maxLength="200" 
                     autoComplete="off"/>
-                <span className="error" id="password-error"/>
+                <span className="auth__error" id="password-error"/>
                 <button type="submit" className="auth__button">Зарегистрироваться</button>
                 <Link className="auth__link" to=''>
                     <p>Уже зарегистрированы? Войти</p>

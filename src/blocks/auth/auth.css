@@ -57,7 +57,7 @@
     opacity: 0.85;
 }
 
-.error {
+.auth__error {
     margin: 0;
     padding: 0;
     height: 30px;

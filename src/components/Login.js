@@ -37,7 +37,7 @@ const Login = ({ handleLogin }) => {
                     required 
                     placeholder="Email" 
                     autoComplete="off"/>
-                <span className="error" id="email-error"/>
+                <span className="auth__error" id="email-error"/>
                 <input 
                     id="password" 
                     name="password" 
@@ -50,7 +50,7 @@ const Login = ({ handleLogin }) => {
                     minLength="6" 
                     maxLength="200" 
                     autoComplete="off"/>
-                <span className="error" id="password-error"/>
+                <span className="auth__error" id="password-error"/>
                 <button type="submit" className="auth__button">Войти</button>
             </form>
         </div>

@@ -53,29 +53,6 @@ function App() {
     tokenCheck();
   }, [history]);
 
-
-  // useEffect(() => {
-  //   const handleOverlayClick = (evt) => {
-  //     if (evt.target === evt.currentTarget) {
-  //       closeAllPopups();
-  //     }
-  //   }
-  //   document.addEventListener('click', handleOverlayClick)
-    
-  //   return () => document.removeEventListener('click', handleOverlayClick)
-  // }, [])
-
-  useEffect(() => {
-    const closeByEscape = (e) => {
-      if (e.key === 'Escape') {
-        closeAllPopups();
-      }
-    }
-    document.addEventListener('keydown', closeByEscape)
-    
-    return () => document.removeEventListener('keydown', closeByEscape)
-  }, [])
-
   const handleUpdateUser = userData => {
     console.log(userData)
     api.setUserInfo(userData)
